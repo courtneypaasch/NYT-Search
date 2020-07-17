@@ -1,0 +1,10 @@
+.display-4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.jumbotron-fluid {
+    background-color: rgb(17, 17, 96);
+}
