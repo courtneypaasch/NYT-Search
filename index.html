@@ -26,13 +26,13 @@
                 <span class="fa fa-server" aria-hidden="true"></span> Search Parameters
             </div>
             <div class="card-body">
-                <form class="userInput">
+                <form>
                     <div class="form-group">
-                        <label for="search">Search Term:</label>
+                        <label for="exampleInputEmail1">Search Term:</label>
                         <input type="text" class="form-control" id="searchInput" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <label for="recordsNum">Articles to Retrieve:</label>
+                        <label for="exampleFormControlSelect1">Articles to Retrieve:</label>
                         <select class="form-control" id="recordsNum">
                           <option>1</option>
                           <option>5</option>
@@ -48,7 +48,7 @@
                         <input type="text" class="form-control" id="endInput">
                     </div>
                     <button id="search" type="submit" class="btn btn-primary fa fa-search">Search</button>
-                    <button id="clear" type="clear" class="btn btn-primary fa fa-trash">Clear Articles</button>
+                    <button id="clear" type="submit" class="btn btn-primary fa fa-trash">Clear Articles</button>
                 </form>
             </div>
         </div>
@@ -57,13 +57,13 @@
             <div class="card-header">
                 <span class="fa fa-calendar" aria-hidden="true"></span> Top Articles
             </div>
-            <div class="articles-body">
+            <div class="card-body" id="cardBody">
 
             </div>
         </div>
     </main>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="nyTimes.js"></script>
 </body>
 
 </html>
